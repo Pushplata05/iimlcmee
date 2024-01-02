@@ -1,0 +1,117 @@
+:root {
+    --bs-white: #fff;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.sales-service-agent {
+    position: relative;
+    overflow: hidden;
+}
+
+.sales-service-agent .carousel {
+    position: static;
+}
+
+.sales-service-agent .slider_wrapper {
+    margin-left: 0;
+    position: relative;
+}
+.wrapper-block-bg h1 {
+    font-size: 28px;
+    padding: 40px 0px 10px 0px;
+    font-weight: 500;
+}
+/* .sales-service-agent .slider_wrapper:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #fe0000, #692764);
+    opacity: 0.5;
+} */
+.slider_wrap_desk .slick-prev {
+    top: -8px;
+    bottom: inherit;
+    right: 0;
+    left: 0;
+}
+
+.slider_wrap_desk .slick-next {
+    top: inherit;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+
+.sales-service-agent .slider_wrapper h1 {
+    font-size: 35px;
+    line-height: 44px;
+    color: var(--bs-white);
+    font-weight: 300;
+    padding-bottom: 50px;
+    position: relative;
+}
+.sales-service-agent .slider_wrap_desk .slider_w_left {
+    width: calc(100% - 460px);
+    margin-right: 10px;
+    position: relative;
+    margin-top: 0px;
+}
+.sales-service-agent .slider_wrapper p {
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--bs-white);
+    width: 185px;
+    max-width: 100%;
+}
+.slider_wrap_desk .slider_w_right .slick-slide .thumb_img {
+    width: 200px;
+    max-width: 200px;
+    height: 92.5px;
+    margin-right: 10px;
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+
+.slider_wrap_desk .slick-next, .slider_wrap_desk .slick-prev {
+    background: #095a62;
+    width:30px;
+    height:30px;
+    border-radius: 4px;
+    margin: 0 auto;
+    transform: none;
+    z-index:9;
+    color: #fff;
+
+}
+.slider_wrap_desk .slider_w_right .slick-slide {
+    margin: 0 0 10px 0;
+}
+.slider_wrap_desk .slider_w_right .slick-slide>div {
+    height: 92.5px;
+}
+
+.sales-service-agent .slider_wrapper .container>.slick-slider:first-child {
+    position: static;
+}
+
+
+
+.slider_wrapper .slider-nav {
+    margin: 0;
+    top: auto;
+    right: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.slider_wrapper .slider-nav div.slick-slide {
+    cursor: pointer;
+}
