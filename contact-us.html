@@ -10,6 +10,9 @@
       <link href="css/slick.css" rel="stylesheet">
       <script src="https://kit.fontawesome.com/0cd3282a96.js"></script>
       <link rel="stylesheet" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
       <title>iimlcmee</title>
    </head> 
    <body>
@@ -45,7 +48,7 @@
                <div class="close_menu"><a href="javascript:void(0)" style="display: none;">CLOSE</a></div>
                <ul class="navbar-nav ms-auto">
                   <li class="nav-item active">
-                     <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="about-us.html">About Us</a>
@@ -72,7 +75,7 @@
                      <a class="nav-link" href="#">News</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="contactus.php">Contact Us</a>
+                     <a class="nav-link" href="contact-us.html">Contact Us</a>
                   </li>
                </ul>
             </div>
@@ -89,21 +92,61 @@
         <section class="main-section">
             <div class="container">
                 <div class="contact-info bg-light-green">
-                    <div class="row justify-content-center">
-                        <div class="col">
-                            <div class="get-in-touch">
-                                <h2>Get In Touch</h2>
-                                <p>Centre for Marketing in Emerging Economies (CMEE)Indian Institute of Management Lucknow-Noida Campus </p><p>B-1, Sector-62,Institutional Area, Noida-201307Uttar Pradesh, India</p>
-                                <ul>
-                                    <li><b>Tel :</b> +91-120-6678483</li>
-                                      <li><b>Fax :</b> +91-120-6678506</li>
+                    <div class="row justify-content-center get-in-touch ">
+                        <div class="col-md-4">
+                            <div class="contact-us-heading">
+                                <h3>Get In Touch</h3>
+                               <div class="contact-us-content">
+                                <p class="para">Centre for Marketing in Emerging Economies (CMEE)Indian Institute of Management Lucknow-Noida Campus </p>
+                                <p class="mb-4">B-1, Sector-62,Institutional Area, Noida-201307Uttar Pradesh, India</p>
+                                <ul class="contact-us-icons">
+                                    <li> <span class="me-2"><iconify-icon icon="mdi:telephone"></iconify-icon></span> +91-120-6678483</li>
+                                    <li><span class="me-2"><iconify-icon icon="material-symbols:fax-outline"></iconify-icon></span>  +91-120-6678506</li>
+                                    
+                                    <li>  <span class="me-2"><iconify-icon icon="ic:baseline-email"></iconify-icon></span>cmee@iiml.ac.in</li>
+                                   <li>  <span class="me-2"> <iconify-icon icon="el:website"></iconify-icon></span>cmee@iiml.ac.in</li>
+                                    
                                 </ul>
+                               </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="map-frame">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.284926220023!2d77.35956052619726!3d28.62122143459298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce547bb5439ef%3A0xb3a1e7637150d0c7!2sINDIAN%20INSTITUTE%20OF%20MANAGEMENT%20LUCKNOW-NOIDA%20CAMPUS%2C%20Block%20B%2C%20Industrial%20Area%2C%20Sector%2062%2C%20Noida%2C%20Uttar%20Pradesh%20201309!5e0!3m2!1sen!2sin!4v1702376203070!5m2!1sen!2sin" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-7">
+                            <form class="row g-3 contact-form">
+                                <div class="col-md-6">
+                                  <label for="inputEmail4" class="form-label">First-name</label>
+                                  <input type="text" placeholder="First-name" class="form-control form-text" id="inputEmail4">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputPassword4" class="form-label">Last-name</label>
+                                  <input type="last-name" placeholder="Last-name" class="form-control form-text" id="inputPassword4">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" placeholder="Email" class="form-control form-text" id="inputEmail4">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Phone-number</label>
+                                    <input type="number" placeholder="+12 983783893"  class="form-control form-text" id="inputPassword4">
+                                  </div>
+                                <div class="col-12">
+                                  <label for="inputAddress" class="form-label">Brief Your Business</label>
+                                  <input type="text" class="form-control form-text" id="inputAddress" placeholder="Write your message">
+                                </div>
+                                
+                                
+                               
+                                <div class="col-12 mt-5 d-flex justify-content-end">
+                                    <div class="catch-up-btn">
+                                        <a href="#" type="button" class="btn d-flex">Lets's catchup
+                                            <iconify-icon icon="fluent:arrow-circle-right-48-regular"></iconify-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                                 
+                              </form>
                         </div>
                     </div>
                 </div>

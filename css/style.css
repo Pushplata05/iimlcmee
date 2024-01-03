@@ -604,8 +604,118 @@ ul.social-icons li a:hover {
         .member-to-govt-pb{
             padding: 0px 0px 32px;
         }
-
-
+/* contact-us-page */
+.contact-us-heading h3 {
+    color: #212121;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.contact-us-content p {
+    color: #212121;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ul.contact-us-icons li {
+    display: flex;
+} */
+.get-in-touch {
+    padding: 82px 89px;
+}
+.contact-us-icon span {
+    font-size: 17px;
+}
+ul.contact-us-icons li {
+    color: #212121;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.contact-us-content p.para {
+    font-weight: 500;
+}
+form.row.g-3.contact-form {
+    display: flex;
+    /* width: 700px; */
+    padding: 50px 52px 50px 53px;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    /* gap: 51px; */
+    background: white;
+}
+.contact-form label {
+    display: inline-block;
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.contact-form .form-control {
+    border-width: inherit;
+    border-bottom: 1px solid #8D8D8D;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0px 0px 12px;
+}
+.catch-up-btn iconify-icon {
+    position: relative;
+    margin-left: 5px;
+    font-size: 24px;
+}
+.catch-up-btn .btn {
+    color: #222;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.792px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127%;
+    /* width: 188px; */
+    border-radius: 0;
+    padding: 12.528px 13.264px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+.form-text {
+    color: #8D8D8D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* padding: 151px 0px; */
+}
+ul.contact-us-icons li {
+    color: #212121;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+ul.contact-us-icons iconify-icon {
+    font-size: 18px;
+    padding: 6px 10px 0px 0px;
+}
+.catch-up-btn .btn:hover {
+    color: white;
+    background: #222;
+}
 /*****Responsive CSS*****/
 
 @media(min-width:1300px) {
@@ -853,6 +963,9 @@ ul.social-icons li a:hover {
     }
     .thankss.copyright {
         margin-bottom: 0px
+    }
+    .get-in-touch {
+        padding: 40px 46px;
     }
 }
 
